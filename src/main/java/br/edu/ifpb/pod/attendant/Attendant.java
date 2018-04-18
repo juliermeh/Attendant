@@ -5,14 +5,14 @@
  */
 package br.edu.ifpb.pod.attendant;
 
-import br.edu.ifpb.pod.queue.Q;
+import br.edu.ifpb.pod.queue.Queue;
 /**
  *
  * @author Sinbad Heinstein
  */
-public interface A {
+public interface Attendant {
     
-    void perform(Q q);
+    void perform(Queue q);
     void report();
     
 }

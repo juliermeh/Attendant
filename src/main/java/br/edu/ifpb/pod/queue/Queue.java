@@ -6,12 +6,13 @@
 package br.edu.ifpb.pod.queue;
 
 import br.edu.ifpb.pod.p.P;
+import java.util.List;
 /**
  *
  * @author Sinbad Heinstein
  */
-public interface Q {
-    P queue();
-    P pop();
-    Q push();
+public interface Queue {
+    public List<P> queue();
+    public P pop();
+    public boolean push(P p);
 }
